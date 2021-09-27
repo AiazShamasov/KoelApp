@@ -31,5 +31,9 @@ public class PlaylistTests extends BaseTest{
 
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
 
+
+
+
+
     }
 }
