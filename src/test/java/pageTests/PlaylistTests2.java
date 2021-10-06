@@ -7,9 +7,9 @@ import pageObjects.LoignPage;
 import pageObjects.MainPage;
 
 
-public class PlaylistTests extends BaseTest{
+public class PlaylistTests2 extends BaseTest{
     @Test
-    public void createPlaylistTest() {
+    public void createPlaylistTestx() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
@@ -18,7 +18,7 @@ public class PlaylistTests extends BaseTest{
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
      }
     @Test
-    public void renamePlaylistTest() {
+    public void renamePlaylistTestx() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
@@ -31,7 +31,7 @@ public class PlaylistTests extends BaseTest{
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
     }
     @Test
-    public void createPlaylistTest2() {
+    public void createPlaylistTest2x() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
@@ -40,7 +40,7 @@ public class PlaylistTests extends BaseTest{
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
     }
     @Test
-    public void renamePlaylistTest2() {
+    public void renamePlaylistTest2x() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();

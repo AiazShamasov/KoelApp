@@ -54,7 +54,7 @@ public class MainPage extends BasePage{
         return list.size() > 0;
     }
 
-    public void renamePlaylist(String playlistId, String newName) throws InterruptedException {
+    public void renamePlaylist(String playlistId, String newName) {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@href='#!/playlist/"+playlistId+"']")));
         WebElement playlist = driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
