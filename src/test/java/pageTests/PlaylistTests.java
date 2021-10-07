@@ -51,5 +51,6 @@ public class PlaylistTests extends BaseTest{
         mainPage.renamePlaylist(playlistId, newName);
 
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
+        
     }
 }
