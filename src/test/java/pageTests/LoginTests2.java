@@ -10,7 +10,7 @@ public class LoginTests2 extends BaseTest{
     public void loginTestx(){
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         Assert.assertTrue(mainPage.isLogoutButton());
     }
     @Test
@@ -24,7 +24,7 @@ public class LoginTests2 extends BaseTest{
     public void loginTest1x(){
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         Assert.assertTrue(mainPage.isLogoutButton());
     }
     @Test
@@ -38,7 +38,7 @@ public class LoginTests2 extends BaseTest{
     public void loginTest2x(){
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         Assert.assertTrue(mainPage.isLogoutButton());
     }
     @Test

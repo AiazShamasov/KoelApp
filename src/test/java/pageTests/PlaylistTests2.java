@@ -1,6 +1,7 @@
 package pageTests;
 
 import helper.TestDataGenerator;
+import listeners.RetryAnalyzer;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.LoignPage;
@@ -13,7 +14,7 @@ public class PlaylistTests2 extends BaseTest{
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         String playlistId = mainPage.createPlaylist(name);
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
      }
@@ -22,7 +23,7 @@ public class PlaylistTests2 extends BaseTest{
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         String playlistId = mainPage.createPlaylist(name);
 
         String newName = TestDataGenerator.randomString(8);
@@ -30,21 +31,26 @@ public class PlaylistTests2 extends BaseTest{
 
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
     }
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void createPlaylistTest2x() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         String playlistId = mainPage.createPlaylist(name);
-        Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
+        boolean xx = false;
+        if(tt==2){
+            xx=true;
+        }
+        tt++;
+        Assert.assertTrue(xx);
     }
     @Test
     public void renamePlaylistTest2x() {
         String name = TestDataGenerator.randomString(8);
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn("koeluser06@testpro.io","te$t$tudent");
+        MainPage mainPage = loginPage.logIn(username,password);
         String playlistId = mainPage.createPlaylist(name);
 
         String newName = TestDataGenerator.randomString(8);
