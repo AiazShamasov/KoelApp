@@ -10,7 +10,7 @@ public class LoginTests extends BaseTest{
     public void loginTest(){
         LoignPage loginPage = new LoignPage(driver);
         loginPage.open();
-        MainPage mainPage = loginPage.logIn(username,password);
+        MainPage mainPage = loginPage.logIn(username,password+"1");
         Assert.assertTrue(mainPage.isLogoutButton());
     }
     @Test(enabled = false)
