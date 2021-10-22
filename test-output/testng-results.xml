@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="22" passed="16" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-12T13:06:33Z" name="Master Suite" finished-at="2021-10-12T13:07:41Z" duration-ms="67895">
+    <groups>
+    </groups>
+    <test started-at="2021-10-12T13:06:33Z" name="All tests" finished-at="2021-10-12T13:07:41Z" duration-ms="67895">
+      <class name="pageTests.PlaylistTests2">
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:33Z" name="starUp" finished-at="2021-10-12T13:06:35Z" duration-ms="1875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTestx()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:35Z" name="createPlaylistTestx" finished-at="2021-10-12T13:06:39Z" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTestx -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:39Z" name="tearDown" finished-at="2021-10-12T13:06:44Z" duration-ms="5085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTestx status=SUCCESS method=PlaylistTests2.createPlaylistTestx()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:44Z" name="starUp" finished-at="2021-10-12T13:06:45Z" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="renamePlaylistTestx()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:45Z" name="renamePlaylistTestx" finished-at="2021-10-12T13:06:49Z" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renamePlaylistTestx -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:49Z" name="tearDown" finished-at="2021-10-12T13:06:54Z" duration-ms="5084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=renamePlaylistTestx status=SUCCESS method=PlaylistTests2.renamePlaylistTestx()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:54Z" name="starUp" finished-at="2021-10-12T13:06:55Z" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:55Z" name="createPlaylistTest2x" finished-at="2021-10-12T13:06:58Z" duration-ms="3476" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at pageTests.PlaylistTests2.createPlaylistTest2x(PlaylistTests2.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:06:58Z" name="tearDown" finished-at="2021-10-12T13:07:03Z" duration-ms="5086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTest2x status=SKIP method=PlaylistTests2.createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:03Z" name="starUp" finished-at="2021-10-12T13:07:04Z" duration-ms="791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:04Z" name="createPlaylistTest2x" finished-at="2021-10-12T13:07:07Z" duration-ms="3369" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at pageTests.PlaylistTests2.createPlaylistTest2x(PlaylistTests2.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:07Z" name="tearDown" finished-at="2021-10-12T13:07:12Z" duration-ms="5085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTest2x status=SKIP method=PlaylistTests2.createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:12Z" name="starUp" finished-at="2021-10-12T13:07:13Z" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:13Z" name="createPlaylistTest2x" finished-at="2021-10-12T13:07:16Z" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:16Z" name="tearDown" finished-at="2021-10-12T13:07:21Z" duration-ms="5085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTest2x status=SUCCESS method=PlaylistTests2.createPlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:21Z" name="starUp" finished-at="2021-10-12T13:07:22Z" duration-ms="704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="renamePlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:22Z" name="renamePlaylistTest2x" finished-at="2021-10-12T13:07:27Z" duration-ms="4548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renamePlaylistTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests2@402bba4f]" started-at="2021-10-12T13:07:27Z" name="tearDown" finished-at="2021-10-12T13:07:32Z" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=renamePlaylistTest2x status=SUCCESS method=PlaylistTests2.renamePlaylistTest2x()[pri:0, instance:pageTests.PlaylistTests2@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.PlaylistTests2 -->
+      <class name="pageTests.PlaylistTests">
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:33Z" name="starUp" finished-at="2021-10-12T13:06:35Z" duration-ms="1875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTest()[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:35Z" name="createPlaylistTest" finished-at="2021-10-12T13:06:39Z" duration-ms="4163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:39Z" name="tearDown" finished-at="2021-10-12T13:06:44Z" duration-ms="5086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTest status=SUCCESS method=PlaylistTests.createPlaylistTest()[pri:0, instance:pageTests.PlaylistTests@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:44Z" name="starUp" finished-at="2021-10-12T13:06:45Z" duration-ms="830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="renamePlaylistTest()[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:45Z" name="renamePlaylistTest" finished-at="2021-10-12T13:06:49Z" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renamePlaylistTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:49Z" name="tearDown" finished-at="2021-10-12T13:06:54Z" duration-ms="5081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=renamePlaylistTest status=SUCCESS method=PlaylistTests.renamePlaylistTest()[pri:0, instance:pageTests.PlaylistTests@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:54Z" name="starUp" finished-at="2021-10-12T13:06:55Z" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="createPlaylistTest2()[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:55Z" name="createPlaylistTest2" finished-at="2021-10-12T13:06:58Z" duration-ms="3441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistTest2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:06:58Z" name="tearDown" finished-at="2021-10-12T13:07:03Z" duration-ms="5083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPlaylistTest2 status=SUCCESS method=PlaylistTests.createPlaylistTest2()[pri:0, instance:pageTests.PlaylistTests@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:07:03Z" name="starUp" finished-at="2021-10-12T13:07:04Z" duration-ms="791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="renamePlaylistTest2()[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:07:04Z" name="renamePlaylistTest2" finished-at="2021-10-12T13:07:09Z" duration-ms="4670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renamePlaylistTest2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.PlaylistTests@6e171cd7]" started-at="2021-10-12T13:07:09Z" name="tearDown" finished-at="2021-10-12T13:07:14Z" duration-ms="5087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=renamePlaylistTest2 status=SUCCESS method=PlaylistTests.renamePlaylistTest2()[pri:0, instance:pageTests.PlaylistTests@6e171cd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.PlaylistTests -->
+      <class name="pageTests.LoginTests">
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:06:33Z" name="starUp" finished-at="2021-10-12T13:06:35Z" duration-ms="1875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginTest()[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:06:35Z" name="loginTest" finished-at="2021-10-12T13:06:46Z" duration-ms="11631" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at pageTests.LoginTests.loginTest(LoginTests.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:06:46Z" name="tearDown" finished-at="2021-10-12T13:06:51Z" duration-ms="5247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=LoginTests.loginTest()[pri:0, instance:pageTests.LoginTests@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:06:51Z" name="starUp" finished-at="2021-10-12T13:06:52Z" duration-ms="735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="wrongLoginTest1()[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:06:52Z" name="wrongLoginTest1" finished-at="2021-10-12T13:07:03Z" duration-ms="11151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:03Z" name="tearDown" finished-at="2021-10-12T13:07:08Z" duration-ms="5077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wrongLoginTest1 status=SUCCESS method=LoginTests.wrongLoginTest1()[pri:0, instance:pageTests.LoginTests@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:08Z" name="starUp" finished-at="2021-10-12T13:07:09Z" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginTest2()[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:09Z" name="loginTest2" finished-at="2021-10-12T13:07:10Z" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:10Z" name="tearDown" finished-at="2021-10-12T13:07:16Z" duration-ms="5086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest2 status=SUCCESS method=LoginTests.loginTest2()[pri:0, instance:pageTests.LoginTests@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:16Z" name="starUp" finished-at="2021-10-12T13:07:16Z" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="wrongLoginTest2()[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:16Z" name="wrongLoginTest2" finished-at="2021-10-12T13:07:27Z" duration-ms="11108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests@40ef3420]" started-at="2021-10-12T13:07:27Z" name="tearDown" finished-at="2021-10-12T13:07:33Z" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wrongLoginTest2 status=SUCCESS method=LoginTests.wrongLoginTest2()[pri:0, instance:pageTests.LoginTests@40ef3420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.LoginTests -->
+      <class name="pageTests.LoginTests2">
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:33Z" name="starUp" finished-at="2021-10-12T13:06:35Z" duration-ms="1875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginTestx()[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:35Z" name="loginTestx" finished-at="2021-10-12T13:06:37Z" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestx -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:37Z" name="tearDown" finished-at="2021-10-12T13:06:42Z" duration-ms="5089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTestx status=SUCCESS method=LoginTests2.loginTestx()[pri:0, instance:pageTests.LoginTests2@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:42Z" name="starUp" finished-at="2021-10-12T13:06:43Z" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="wrongLoginTestx()[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:43Z" name="wrongLoginTestx" finished-at="2021-10-12T13:06:54Z" duration-ms="11195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTestx -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:54Z" name="tearDown" finished-at="2021-10-12T13:06:59Z" duration-ms="5078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wrongLoginTestx status=SUCCESS method=LoginTests2.wrongLoginTestx()[pri:0, instance:pageTests.LoginTests2@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:06:59Z" name="starUp" finished-at="2021-10-12T13:07:00Z" duration-ms="710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="wrongLoginTest1x()[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:00Z" name="wrongLoginTest1x" finished-at="2021-10-12T13:07:11Z" duration-ms="11084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest1x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:11Z" name="tearDown" finished-at="2021-10-12T13:07:16Z" duration-ms="5077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wrongLoginTest1x status=SUCCESS method=LoginTests2.wrongLoginTest1x()[pri:0, instance:pageTests.LoginTests2@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:16Z" name="starUp" finished-at="2021-10-12T13:07:17Z" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="loginTest2x()[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:17Z" name="loginTest2x" finished-at="2021-10-12T13:07:18Z" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:18Z" name="tearDown" finished-at="2021-10-12T13:07:24Z" duration-ms="5082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest2x status=SUCCESS method=LoginTests2.loginTest2x()[pri:0, instance:pageTests.LoginTests2@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="starUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:24Z" name="starUp" finished-at="2021-10-12T13:07:24Z" duration-ms="795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starUp -->
+        <test-method signature="wrongLoginTest2x()[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:24Z" name="wrongLoginTest2x" finished-at="2021-10-12T13:07:35Z" duration-ms="11125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest2x -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pageTests.LoginTests2@498d318c]" started-at="2021-10-12T13:07:35Z" name="tearDown" finished-at="2021-10-12T13:07:41Z" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wrongLoginTest2x status=SUCCESS method=LoginTests2.wrongLoginTest2x()[pri:0, instance:pageTests.LoginTests2@498d318c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.LoginTests2 -->
+    </test> <!-- All tests -->
+  </suite> <!-- Master Suite -->
+</testng-results>
