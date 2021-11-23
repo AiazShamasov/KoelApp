@@ -25,5 +25,11 @@ public class TicketTestParametriztion {
 
         //Assert
         Assert.assertEquals(result, price);
+
+
+
+
+
+
     }
 }
